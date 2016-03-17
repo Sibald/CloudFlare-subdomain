@@ -7,3 +7,4 @@ Feel free to contribute by forking the repository and submitting a pull request 
 # To-do
 - I'd like to somehow build this to where it can create subdomains for multiple services. For example Teamspeak.
 - Write own class to communicate with CloudFlare API v4 rather than using a 3rd party class that communicates with the old v1 API.
+- Allow user to delete their own subdomain. We'll need a database for this so we can keep track of a deactivation string that's associated with each subdomain.
